@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#mainNav{
+	background-color: #eee;
+}
+
+#mainNav ul{
+	display: flex;
+	list-style: none;
+	gap: 10px;
+}
+
+#mainNav li{
+	padding: 0 5px;
+}
+
+#mainNav a{
+	white-space: nowrap;
+	text-decoration: none;
+	color: #444;
+	height: 30px;
+	line-height: 30px;
+}
+
+#mainNav ul li{
+	position: relative;
+}
+
+#mainNav ul li ul{
+	display: none;
+	position: absolute;
+	background-color: #bbb;
+}
+
+#mainNav ul li:hover ul{
+	display: block;
+}
